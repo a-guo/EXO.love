@@ -15,3 +15,4 @@ for theurl in urls:
         if str(link.get('src')) not in images:
             print (link.get('src'))
             images.append(str(link.get('src')))
+            
